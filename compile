@@ -1,0 +1,10 @@
+
+
+yacc program
+
+
+gedit fl.l
+gedit fy.y
+yacc -d fy.y
+lex fl.l
+gcc lex.yy.c y.tab.c -ll
