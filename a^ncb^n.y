@@ -5,7 +5,7 @@
 %%
 P : S NL {printf("Valid");
  return 0;}
-S : A S B | C 
+S : A S B | A C B
 %%
 void main()
 {
